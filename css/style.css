@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+
+    height: 650px;
+    background: url('../images/Pizza_01.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+header .row nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header .row nav .header-number {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .row nav .header-number h4 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #68bf3b;
+    padding: 13px 0 30px 0;
+    border-radius: 50px;
+    background-color: #68bf3b;
+}
+
+header .row nav .header-number a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .row nav .header-number span {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+header .row nav p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header .row .header-button p {
+    color: #ffffff;
+    padding-top: 200px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+header .row .header-button h3 {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+
+    line-height: 140px;
+}
+
+header .row .header-button span {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+
+}
+
+header .row .header-button h6 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #68bf3b;
+    padding: 13px 0 30px 0;
+    border-radius: 50px;
+    background-color: #68bf3b;
+
+}
+
+header .row .header-button a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .row .header-button .header-border {
+    padding-top: 50px;
+}
+
+/* section {
+    height: 590px;
+} */
+
+section .row nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section .row nav .right-txt {
+    padding: 100px 70px;
+}
+
+section .row nav .right-txt h2 {
+    color: #68bf3b;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section .row nav .right-txt p {
+    padding-top: 70px;
+    color: #bdbdbd;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+section .row nav .right-txt span {
+    padding-top: 70px;
+    color: #bdbdbd;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+section .row nav .right-txt .text-img {
+    display: flex;
+}
+
+section .row nav .right-txt .text-img img {
+
+    padding: 0 110px;
+}
+
+.section-2 .row nav .pizza-txt{
+    width: 310px;
+}
+.section-2 .row nav .middle{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.section-2 .row .pizza-img h2{
+    color: #e5f6d7;
+    font-size: 36px;
+    font-weight: 600;
+   
+}
+.section-2 .row .pizza-img img{
+    padding-top: 50px;
+}
+.section-2 .row nav .pizza-txt h3{
+    color: #a6a6a6;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-2 .row nav .pizza-txt p{
+    color: #a6a6a6;
+    font-size: 14px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.section-2 .row nav .border h1{
+    color:#a6a6a6;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.section-2 .row nav .border p{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #68bf3b;
+    padding: 13px 0 30px 0;
+    border-radius: 50px;
+    background-color: #68bf3b;
+  
+   
+}
+.section-2 .row nav .border a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.section-2 .row nav .border{
+text-align: right;
+}
+.section-3{
+    height: 800px;
+}
+.section-3 .logo nav p{
+    color:#a6a6a6;
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-3 .logo nav img{
+    padding-top: 150px;
+}
+.section-3 .logo nav .text{
+    width: 300px;
+    text-align: center;
+}
+.section-3 .logo nav .text p{
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}.section-3 .logo nav .text{
+   margin-left: 30px;
+   padding-bottom: 50px;
+}
+.section-3 .logo nav .text span{
+   
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top:  100px;
+    line-height: 30px;
+}
+.section-3 .logo nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+footer{
+    height: 200px;
+    background: url('../pastki2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .title nav h6{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
+}
+footer .title nav{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .title nav .footer-number{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .title nav .footer-number span{
+    color: #ffffff;
+    font-size: 24px;
+    padding:10px;
+}
+footer .title nav .footer-number h4 {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #68bf3b;
+    padding: 13px 0 30px 0;
+    border-radius: 50px;
+    background-color: #68bf3b;
+}
+footer .title nav .footer-number a{
+    color: #ffffff;
+    font-size: 16px;
+}
+footer .title .btn-txt p{
+    color: #ffffff;
+    font-size: 16px;
+   padding-top: 70px;
+   text-align: center;
+   
+}
+
+
